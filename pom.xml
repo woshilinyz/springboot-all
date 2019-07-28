@@ -11,6 +11,7 @@
     <modules>
         <module>springboot_helloworld</module>
         <module>springboot_web_close_elegant</module>
+        <module>springboot_strategy</module>
     </modules>
 
     <dependencyManagement>
