@@ -13,6 +13,8 @@
         <module>springboot_web_close_elegant</module>
         <module>springboot_strategy</module>
         <module>springboot_mutilDatasource</module>
+        <module>springboot_validation</module>
+        <module>springboot_mail</module>
     </modules>
 
     <dependencyManagement>
