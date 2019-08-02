@@ -16,6 +16,7 @@
         <module>springboot_validation</module>
         <module>springboot_mail</module>
         <module>springboot_timed_task</module>
+        <module>springboot_swagger2</module>
     </modules>
 
     <dependencyManagement>
