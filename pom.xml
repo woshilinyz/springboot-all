@@ -15,6 +15,7 @@
         <module>springboot_mutilDatasource</module>
         <module>springboot_validation</module>
         <module>springboot_mail</module>
+        <module>springboot_timed_task</module>
     </modules>
 
     <dependencyManagement>
