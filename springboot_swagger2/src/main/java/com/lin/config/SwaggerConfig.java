@@ -36,4 +36,11 @@ public class SwaggerConfig {
                         .build()
                 );
     }
+ //   整合Security后添加一下配置
+//    public void configure(WebSecurity web) throws Exception {
+//            web.ignoring()
+//                    .antMatchers("/swagger-ui.html")
+//                    .antMatchers("/v2/**")
+//                    .antMatchers("/swagger-resources/**");
+//    }
 }
