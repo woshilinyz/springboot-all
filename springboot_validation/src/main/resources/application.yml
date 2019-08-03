@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    view:
+      static-path-pattern: /**
+
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/page/
+    suffix: .html
+

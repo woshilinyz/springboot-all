@@ -18,6 +18,7 @@
         <module>springboot_timed_task</module>
         <module>springboot_swagger2</module>
         <module>springboot_thymeleaf</module>
+        <module>springboot_jdbcTemplate</module>
     </modules>
 
     <dependencyManagement>
