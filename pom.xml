@@ -20,6 +20,7 @@
         <module>springboot_thymeleaf</module>
         <module>springboot_jdbcTemplate</module>
         <module>springboot_mybatis</module>
+        <module>springboot_mybatisPlus</module>
     </modules>
 
     <dependencyManagement>
