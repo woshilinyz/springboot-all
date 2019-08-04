@@ -21,6 +21,7 @@
         <module>springboot_jdbcTemplate</module>
         <module>springboot_mybatis</module>
         <module>springboot_mybatisPlus</module>
+        <module>springboot_jpa</module>
     </modules>
 
     <dependencyManagement>
