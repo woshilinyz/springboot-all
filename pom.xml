@@ -23,6 +23,7 @@
         <module>springboot_mybatisPlus</module>
         <module>springboot_jpa</module>
         <module>springboot_websocket</module>
+        <module>springboot_shiro</module>
     </modules>
 
     <dependencyManagement>
