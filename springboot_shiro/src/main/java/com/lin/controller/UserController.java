@@ -2,7 +2,9 @@ package com.lin.controller;
 
 import com.lin.pojo.User;
 import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -25,5 +27,12 @@ public class UserController {
     @RequestMapping("/vip/index")
     public String update(){
         return "/vip/index";
+    }
+
+    @RequestMapping("/user/test")
+   // @RequiresPermissions("user")
+    @RequiresRoles(value={"123","asd"},logical = Logical.OR)
+    public void test(){
+        System.out.println("what");
     }
 }
