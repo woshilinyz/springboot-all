@@ -24,6 +24,8 @@
         <module>springboot_jpa</module>
         <module>springboot_websocket</module>
         <module>springboot_shiro</module>
+        <module>javarmi</module>
+        <module>springboot_swagger2_new</module>
     </modules>
 
     <dependencyManagement>
