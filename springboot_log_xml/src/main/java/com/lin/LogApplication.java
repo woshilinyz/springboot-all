@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LogApplication {
     //MDC
+    //MDC中的值在logback.xml文件中的pattern中用%X{key}来引用
     public static void main(String[] args) {
         SpringApplication.run(LogApplication.class,args);
     }
