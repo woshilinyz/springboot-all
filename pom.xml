@@ -28,6 +28,7 @@
         <module>springboot_swagger2_new</module>
         <module>springboot_log_xml</module>
         <module>springboot_log_code</module>
+        <module>springboot_webservice</module>
     </modules>
 
     <dependencyManagement>
